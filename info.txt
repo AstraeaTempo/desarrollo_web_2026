@@ -1,0 +1,91 @@
+ELEMENTOS_HTML_QUE_DEBES_UTILIZAR 🏗️
+main
+Representa el contenido principal del sitio.
+Ejemplo:
+<main>
+--Contenido principal
+</main>
+header
+Representa el encabezado del sitio o de una sección.
+Ejemplo:
+<header>
+--<h1>Mi Sitio</h1>
+</header>
+section
+Agrupa contenido relacionado.
+Ejemplo:
+<section>
+--<h2>Servicios</h2>
+</section>
+aside
+Se utiliza para contenido lateral (menú, botones).
+Ejemplo:
+<aside>
+--Menú lateral
+</aside>
+div
+Contenedor genérico para organizar bloques.
+Ejemplo:
+<div class="caja"></div>
+button
+Crea botones interactivos.
+Ejemplo:
+<button>Ver más</button>
+
+---
+
+PROPIEDADES_CSS_QUE_DEBES_UTILIZAR 🎨
+width
+Define el ancho.
+width: 300px;
+height
+Define la altura.
+height: 150px;
+background-color
+Define el color de fondo.
+background-color: blue;
+margin
+Espacio externo entre elementos.
+margin: 20px;
+padding
+Espacio interno entre contenido y borde.
+padding: 15px;
+display: flex
+Activa el modelo flexible para ordenar elementos.
+display: flex;
+justify-content
+Alinea horizontalmente dentro de flex.
+justify-content: space-between;
+align-items
+Alinea verticalmente dentro de flex.
+align-items: center;
+
+---
+
+ESTRUCTURA_DE_ARCHIVOS_OBLIGATORIA 📁
+
+La carpeta principal del ejercicio será:
+01_ejercitando_HTML_CSS/
+
+Dentro de esta carpeta irá TODO el proyecto, ya que será la raíz del ejercicio.
+La estructura debe quedar así:
+
+01_ejercitando_HTML_CSS/
+index.html
+static/
+-- css/
+--- styles.css
+-- js/
+--- script.js
+-- images/
+.gitignore
+README.md
+
+En el archivo index.html debes conectar correctamente los archivos:
+<link rel="stylesheet" href="static/css/styles.css">
+<script src="static/js/script.js"></script>
+
+Contenido mínimo del .gitignore:
+node_modules/
+.DS_Store
+Thumbs.db

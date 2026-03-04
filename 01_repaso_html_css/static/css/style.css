@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+display: flex;
+justify-content: center;
+}
+
+nav {
+    background-color: #10d110;
+}
+
+.caja-azul {
+    background-color: #0059ff;
+
+}
